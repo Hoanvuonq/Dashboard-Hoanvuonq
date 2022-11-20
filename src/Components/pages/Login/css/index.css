@@ -1,0 +1,167 @@
+/* Login Style */
+#app {
+    outline: none;
+}
+
+.main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.wrap {
+    padding: 0 !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    width: 100%;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.25rem;
+}
+
+.logo-content {
+    text-align: center !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.logo-content img {
+    width: 150px;
+    height: 150px;
+}
+
+.card-content {
+    border-radius: 20px;
+    box-shadow: 0px 1px 3px 0px rgb(54 74 99 / 5%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, 0.125);
+
+}
+
+.card-head {
+    position: relative;
+    padding-bottom: 1.25rem;
+    font-size: 24px;
+}
+
+.card-inner {
+    position: relative;
+}
+
+.from-card {
+    position: relative;
+    margin-top: -10px;
+
+}
+
+.forget-passwod {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.from-group {
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+
+.from-label-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    border-radius: 20px !important;
+}
+
+.form-control-lg {
+    height: calc(2.625rem + 2px);
+    padding: 0.6875rem 1rem;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    border-radius: 5px;
+}
+
+.form-icon-right {
+    left: auto;
+    right: -1px;
+}
+
+.form-icon {
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc(1rem + 24px);
+    height: calc(1rem + 24px);
+}
+
+a {
+    transition: color .4s, background-color .4s, border .4s, box-shadow .4s;
+    color: #9d72ff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.form-control-wrap a {
+    float: right;
+    margin-right: 12px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.from-group button {
+    line-height: 1.5rem !important;
+    justify-content: center;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-flex;
+    align-items: center;
+    height: 48px;
+}
+
+.from-group button:hover {
+    cursor: pointer;
+    background-color: #ce530b !important;
+}
+
+.form-note {
+    text-align: center !important;
+    padding-top: 1.6rem !important;
+}
+
+/* Rigister Style */
+
+.custom-checkbox {
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.btn-lg {
+    border-radius: 20px !important;
+    width: 100%;
+    color: #fff;
+    background-color: var(--orange-color) !important;
+    border-color: var(--border-color) !important;
+    
+  }

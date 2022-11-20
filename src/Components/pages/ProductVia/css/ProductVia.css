@@ -1,0 +1,451 @@
+.nk-prodcutVia{
+    width: calc(100% - 290px);
+    display: inline-block;
+    float: right;
+}
+
+
+.container-fluid{
+    width: 100%;
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nk-prodcutVia-body {
+    flex-grow: 1;
+}
+
+
+
+.card {
+    border-radius: 20px;
+    height: 900px !important;
+}
+
+.card {
+    box-shadow: 0px 1px 3px 0px rgb(54 74 99 / 5%);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, 0.125) !important;
+    height: 59px;
+    border-radius: 20px !important;
+    margin: 18px;
+    margin-top: 90px;
+}
+
+.product-card-inner {
+    border-bottom: 1px solid rgb(237, 242, 249);
+    padding: 1.0rem;
+}
+
+
+.card-title-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card-title-group:only-child, .card-title-group .card-search {
+    margin-top: -0.25rem;
+    margin-bottom: -0.25rem;
+}
+
+.card-title-group .card-title {
+    margin-bottom: 0;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+}
+
+h6 {
+    font-weight: 600 !important;
+    color: #364a63 !important;
+}
+
+.card-body {
+    border-radius: 20px;
+}
+
+.border-bottom-none {
+    border-bottom: 1px solid #edf2f9;
+}
+
+.card-body {
+    min-height: 1px;
+    padding: 1.25rem !important;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.via-group-zoom {
+    transition: transform .5s;
+    position: relative;
+    cursor: pointer;
+}
+
+.via-group-zoom:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    z-index: 999;
+}
+
+.via-group-zoom:hover .deals__item {
+    border: 1px solid rgb(151, 105, 255);
+}
+
+.p-b-20 {
+    padding-bottom: 20px;
+}
+
+.deals__item {
+    border-radius: 20px;
+}
+
+.deals__item {
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 15%), 0 0 2px 0 rgb(0 0 0 / 5%);
+    border-radius: 8px;
+    position: relative;
+    /* margin-bottom: 20px; */
+    padding-bottom: 64px;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.rest {
+    background-color: tomato !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 11px !important;
+    font-weight: 500 !important;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    border-radius: 4px 24px 4px 26px !important;
+    height: 23px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge-purple {
+    color: #886cff;
+    background: rgba(136,108,255,0.1);
+    border-color: transparent;
+    font-weight: 500;
+}
+
+.int-group {
+    font-size: .8rem;
+}
+
+.has-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.badge-purple {
+    color: #886cff;
+    background: rgba(136,108,255,0.1);
+    border-color: transparent;
+    font-weight: 500;
+}
+
+.badge {
+    position: relative;
+    border: 1px solid currentColor;
+    line-height: 1.125rem;
+    font-family: 'SVN-Poppin';
+    letter-spacing: 0.01em;
+    vertical-align: middle;
+    display: inline-flex;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+.badge:empty {
+    display: block !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.position-absolute, .pos-abs {
+    position: absolute !important;
+}
+
+.badge-pill {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 10rem;
+}
+
+
+.deals__item-content2 {
+    border-bottom-width: 2px;
+    border-radius: 8px 8px 0 0;
+    padding: 25px 25px 0px 25px;
+    height: auto;
+    min-height: 220px;
+    color: rgb(83, 83, 95) !important;
+}
+
+.name-account {
+    height: 50px;
+    font-size: 16px;
+    border-bottom: 1px solid #f5f6fa;
+    color: rgb(83, 83, 95);
+}
+
+span.name{
+    color: rgb(83, 83, 95);
+}
+
+.h4, h4 {
+    font-size: 1.2rem !important;
+    letter-spacing: -0.02em;
+    font-weight: 600 !important;
+    color: #364a63;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-product {
+    margin-right: 3px;
+}
+
+
+.group-logo {
+    width: 19px;
+    height: 19px;
+    max-width: 100%;
+    border-radius: 7px;
+}
+
+.row-acc {
+    display: flex;
+    margin-right: 0;
+    /* margin-left: 0; */
+}
+
+.deals-bottom {
+    border-top: 1px solid #edf2f9;
+    border-radius: 0 8px 8px 0;
+    padding: 10px 0;
+    height: 64px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.deals-bottom .col-md-6:first-child {
+    flex-wrap: wrap;
+}
+
+.price-s {
+    font-size: 18px;
+    color: tomato;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 0;
+    width: 100%;
+    font-weight: 800;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-center-end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+
+
+.btn:not(:disabled):not(.disabled), .dual-listbox .dual-listbox__button:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.btn-dim.btn-primary:not(:disabled):not(.disabled):hover {
+    color: #fff;
+    background-color: #854fff;
+    border-color: #854fff;
+}
+
+.coin-product {
+    margin-left: 3px;
+}
+
+.kill {
+    margin-top: 3px;
+}
+
+.deals-bottom .btn {
+    padding: 4px 10px;
+}
+
+.btn-dim.btn-primary {
+    color: #854fff;
+    background-color: #f2ecff;
+    border-color: transparent;
+    width: 80px;
+    font-size: 14px;
+}
+
+.cart-product-img {
+    width: 19px;
+    margin-right: 5px;
+}
+
+/* Switch */
+.Switch {
+    opacity: 1;
+    border-radius: 14px;
+    transition: opacity 0.25s ease 0s;
+    touch-action: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    margin-top: 12px;
+    position: fixed;
+}
+
+
+.Switch:before {
+    right: 0;
+    width: 3rem;
+    height: 1.5rem;
+    background-color: #fff;
+    border: #dbdfea solid 2px;
+}
+
+.Switch:after {
+    height: 1rem;
+    width: 1rem;
+    right: calc(2rem - 2px - 0.125rem);
+    background-color: #dbdfea;
+}
+
+.Switch:before, .Switch:after {
+    position: absolute;
+    content: "";
+    transform: translateY(-50%);
+    border-radius: 1.5rem;
+    display: block;
+    margin-top: -29px;
+    margin-right: -197px;
+}
+
+
+/* Dark Product */
+[data-theme = 'dark'] .nk-prodcutVia{
+    background-color: #000;
+}
+
+[data-theme = 'dark'] .Switch:before{
+    background-color: rgb(255, 253, 253) !important;
+    border: #f02dd6 solid 2px;
+}
+
+[data-theme = 'dark'] .Switch::after{
+    background-color: #f02dd6 !important;
+    border: #f02dd6 solid 2px;
+    right: 4px;
+}
+
+[data-theme = 'dark'] .btn-dim.btn-primary{
+    background-color: #f35f09 !important;
+    border: #f8fc03 solid 2px !important;
+    right: 4px;
+}
+
+[data-theme = 'dark'] .card{
+    background-color: #000;
+    border-radius: 1px solid  #064288 !important;
+}
+
+
+[data-theme = 'dark'] .deals__item-content2 .name-account {color: #fff;}
+
+[data-theme = 'dark'] span .name {color: #fff;}
+
+
+[data-theme = 'dark'] .deals__item{
+    background: rgb(39,39,208);
+    background: linear-gradient(186deg, rgba(39,39,208,1) 39%, rgba(2,0,36,1) 95%);
+    box-shadow: 2px 5px 20px 7px rgb(34 140 172 / 15%);
+}
+
+/* Reponsive */
+@media (max-width: 1240px){
+    .nk-prodcutVia {
+        width: 100%;
+    }
+    
+    .container-fluid {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 576px){.product-card-inner {padding: 1.5rem;}}
+
+@media screen and (min-width: 768px) and (max-width: 1190px){
+.deals-list .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}}
+
+@media (min-width: 768px){
+.col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}}
+
+@media (min-width: 576px){
+.col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}}
+
+@media screen and (min-width: 768px) and (max-width: 1400px){
+.deals-bottom .col-md-6:first-child {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+    padding-right: 5px;
+}}
+
+@media screen and (min-width: 768px) and (max-width: 1400px){
+    .deals-bottom .col-md-6:last-child {
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+        padding-right: 5px;
+    }
+    .flex-center-end {
+        margin-left: -40px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .flex-center-end {
+        margin-left: -60px;
+    }
+}

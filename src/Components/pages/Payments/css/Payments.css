@@ -1,0 +1,294 @@
+.nk-Payments{
+    width: calc(100% - 290px);
+    display: inline-block;
+    float: right;
+}
+
+.nk-Payments-body {
+    flex-grow: 1;
+}
+
+.g-gs {
+    margin: -14px !important;
+}
+
+.g-gs > li, .g-gs > div {
+    padding: 14px !important;
+}
+
+.card-full {
+    height: 100%;
+}
+
+.fix-nk-tb-list {
+    display: block;
+}
+
+.nk-tb-list {
+    display: table;
+    width: 100%;
+    font-size: 14px;
+    color: #8094ae;
+}
+
+.nav-tabs {
+    font-family: 'SVN-Poppin';
+    margin: 0;
+    font-size: 0.8125rem;
+    border-bottom: 1px solid #edf2f9;
+}
+
+.mt-n2, .my-n2 {
+    margin-top: -0.75rem !important;
+}
+
+.title-tab-text{
+    color: #526484 !important;
+}
+
+
+.nav-tabs .nav-item {
+    padding-right: 1.25rem;
+}
+
+.nav-tabs .nav-link.active {
+    color: #854fff !important;
+    border: none !important;
+    background-color: transparent !important;
+}
+
+
+.nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #1e56bd;
+    background-color: #f5f6fa;
+    border-color: #dee2e6 #dee2e6 #f5f6fa;
+}
+
+.nav-tabs .nav-link {
+    padding: 1rem 0;
+    font-weight: 600;
+    color: #526484;
+    position: relative;
+    border: none;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.nav-tabs .nav-link:before, .nav-tabs .nav-link:after {
+    position: absolute;
+    content: '';
+}
+
+.nav-tabs .nav-link.active:after {
+    opacity: 1;
+}
+
+.nav-tabs .nav-link:after {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    background: #854fff;
+    opacity: 0;
+}
+
+.nav-tabs .nav-link .icon {
+    font-size: 1.4em;
+}
+
+.ni {
+    font-family: "Nioicon" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-link img {
+    width: 19px;
+}
+
+.nav-tabs .nav-link .icon + span {
+    margin-left: 0.5rem;
+    font-size: 18px;
+}
+
+.tab-content > .active {
+    display: block;
+    transition: all 1s ease-in-out;
+}
+
+.tab-content > .tab-pane {
+    display: none;
+}
+
+.tab-money {
+    margin-top: 10px;
+    border: 1px solid #edf2f9;
+    border-radius: 20px;
+}
+
+.img-bank {
+    margin-top: 5px;
+    width: 130px;
+    height: 65px;
+    margin-bottom: -15px;
+}
+
+.momo-img {
+    width: 110px !important;
+    height: 90px !important;
+}
+
+.Qr-img {
+    width: 150px;
+    height: 160px;
+}
+
+.info-bank {
+    margin-bottom: 10px;
+}
+
+.stk-bank {
+    margin-top: 10px;
+    color: #219653;
+}
+
+.name-bank {
+    color: #219653;
+}
+
+.cu-phap {
+    margin-top: 15px;
+}
+
+.nd-bank {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #364a63;
+}
+
+.alert {
+    border-radius: 20px !important;
+}
+
+.alert-primary {
+    color: #7042d6;
+    background-color: #f0eaff !important;
+    border-color: #d3c0ff !important;
+}
+
+.alert {
+    position: relative;
+    padding: 1rem 1.25rem;
+    margin-bottom: 2rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.pd-20 {
+    padding: 10px 20px;
+}
+
+.tab-img {
+    width: 16px;
+}
+
+.title-tab {
+    margin-left: 5px;
+    font-size: 16px;
+    color: rgb(247, 18, 247);
+    font-weight: 700;
+}
+
+.text-tab {
+    font-size: 15px;
+}
+
+.alert-danger {
+    color: #c3463c !important;
+    background-color: #fceae9 !important;
+    border-color: #f7c1bd !important;
+}
+
+
+/* Dark Product */
+[data-theme = 'dark'] .nk-Payments{
+    background-color: #000;
+}
+
+[data-theme = 'dark'] .card-full {
+    background: linear-gradient(186deg, rgba(39,39,208,1) 39%, rgba(2,0,36,1) 95%);
+    box-shadow: 2px 5px 20px 7px rgb(34 140 172 / 15%);
+}
+
+[data-theme = 'dark'] .card-title .title{
+    color: #fff !important;
+}
+
+[data-theme = 'dark'] .title-tab-text{
+    color: #fff !important;
+}
+
+[data-theme = 'dark'] .nd-bank{
+    color: #fff !important;
+}
+
+[data-theme = 'dark'] .alert-primary{
+    color: #854fff;
+    background-color: #252447 !important;
+    border-color: #252447 !important;
+}
+
+[data-theme = 'dark'] .alert-danger{
+    color: #854fff;
+    background-color: #252447 !important;
+    border-color: #252447 !important;
+}
+
+[data-theme = 'dark'] .alert-warning{
+    color: #f4bd0e;
+    background-color: #363422;
+    border-color: #363422;
+}
+
+
+/* Reponsive */
+@media (max-width: 1240px){
+    .nk-Payments {
+        width: 100%;
+    }
+    
+    .container-fluid {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 992px){
+    .nav-tabs .nav-item {
+        padding-right: 1.75rem;
+    }
+}
+
+@media (min-width: 768px){
+    .nav-tabs .nav-item {
+        padding-right: 1.5rem;
+    }
+}
+
+@media (min-width: 992px){
+    .nav-tabs .nav-link {
+        font-size: 0.875rem;
+    }
+}

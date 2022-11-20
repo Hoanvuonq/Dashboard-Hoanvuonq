@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="SvgjsSvg1001" width="288" height="288" version="1.1" viewBox="-12.788 -10.664 313.863 310.398" xmlns="http://www.w3.org/2000/svg">
+  <g id="SvgjsG1008" transform="matrix(1,0,0,1,0,0)">
+    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 32 32" viewBox="0 0 32 32" width="288" height="288">
+      <circle cx="16" cy="16" r="16" class="color8592c9 svgShape" style="fill: rgb(99, 190, 9);"/>
+      <path d="M16,31.2c-8.7,0-15.8-7-16-15.6c0,0.1,0,0.2,0,0.4c0,8.8,7.2,16,16,16s16-7.2,16-16c0-0.1,0-0.2,0-0.4C31.8,24.3,24.7,31.2,16,31.2z" class="color5b6ba1 svgShape" style="fill: rgb(99, 190, 9);"/>
+      <path d="M25.1,10.4l-0.5-0.5c-0.2-0.2-0.4-0.3-0.6-0.3c0,0,0,0,0,0c-0.2,0-0.5,0.1-0.6,0.3l-8.7,8.7L10,14c-0.3-0.3-0.9-0.3-1.3,0l-0.5,0.5c-0.3,0.3-0.3,0.9,0,1.2l5.5,5.5c0.2,0.2,0.6,0.4,0.9,0.4c0.3,0,0.7-0.1,0.9-0.4l9.6-9.6c0.2-0.2,0.3-0.4,0.3-0.6C25.4,10.8,25.3,10.6,25.1,10.4z" class="colorfff svgShape" style="fill: rgb(255, 255, 255);"/>
+    </svg>
+  </g>
+</svg>

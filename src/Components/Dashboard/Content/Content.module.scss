@@ -1,0 +1,274 @@
+// Content //
+.nk-content {
+    padding: 24px 4px;
+
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nk-content-body {
+    flex-grow: 1;
+}
+
+.g-gs {
+    margin: -14px !important;
+}
+
+.g-gs > div {
+    padding: 14px !important;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.card {
+    box-shadow: 0px 1px 3px 0px rgb(54 74 99 / 5%);
+}
+
+.card-inner {
+    padding: 1.25rem;
+}
+
+.card-title-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card-title-group .card-title {
+    margin-bottom: 0;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+}
+
+.card-title .title {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #364a63;
+}
+
+.nk-ecwg .data {
+    margin-top: 0.5rem;
+}
+
+.nk-ecwg .data-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nk-ecwg .amount {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #364a63;
+}
+
+.nk-ecwg6-ck {
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.chartjs-size-monitor, .chartjs-size-monitor-expand, .chartjs-size-monitor-shrink {
+    position: absolute;
+    direction: ltr;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    pointer-events: none;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.chartjs-size-monitor-expand>div {
+    position: absolute;
+    width: 1000000px;
+    height: 1000000px;
+    left: 0;
+    top: 0;
+}
+
+.chartjs-size-monitor-shrink>div {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left: 0;
+    top: 0;
+}
+
+.chartjs-render-monitor {
+    animation: chartjs-render-animation 1ms;
+}
+
+canvas {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.col-lg-8 {
+    position: relative;
+    width: 100%;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+.card-full {
+    height: 100%;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.mb-3{
+    margin-bottom: 1rem !important;
+}
+
+.nk-ecwg8-legends {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.nk-ecwg8-legends li {
+    padding: 0.25rem 1rem;
+}
+
+.nk-ecwg8-legends .title {
+    display: flex;
+    align-items: center;
+    color: #8094ae;
+}
+
+.dot {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+}
+
+.nk-ecwg8-legends .title .dot {
+    margin-right: 0.5rem;
+}
+
+.dot.sq {
+    border-radius: 3px;
+}
+
+.sq {
+    height: 40px;
+    width: 40px;
+}
+
+.dot-lg {
+    height: 12px;
+    width: 12px;
+}
+
+.nk-ecwg8-ck {
+    height: 200px;
+}
+
+.chartjs-size-monitor, .chartjs-size-monitor-expand, .chartjs-size-monitor-shrink {
+    position: absolute;
+    direction: ltr;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    pointer-events: none;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.col-md-6{
+    position: relative;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+.mb-4{
+    margin-bottom: 1.5rem !important;
+}
+
+.nk-ecwg7-ck {
+    height: 180px;
+    width: 180px;
+    margin: 0 auto 15px;
+}
+
+.nk-ecwg7-legends {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nk-ecwg7-legends .title .dot {
+    margin-right: 0.5rem;
+}
+
+
+
+
+//Reponsive Content //
+@media (min-width: 576px){.nk-content {
+    padding: 32px 22px;
+}}
+
+@media (min-width: 992px){
+    .col-lg-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}}
+    
+@media (min-width: 576px){.card-inner {
+    padding: 1.5rem;
+}}
+
+
+// Dark Content // 
+[data-theme = 'dark']{
+    background-color: #000 !important;
+    color: #fff;
+
+    .card {
+        background: rgb(39,39,208);
+        background: linear-gradient(186deg, rgba(39,39,208,1) 39%, rgba(2,0,36,1) 95%);
+        box-shadow: 2px 5px 20px 7px rgb(34 140 172 / 15%);
+    }
+
+    .title, .amount {
+        color: #fff !important;
+    }
+}

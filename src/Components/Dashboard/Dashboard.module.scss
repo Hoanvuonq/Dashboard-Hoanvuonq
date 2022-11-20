@@ -1,0 +1,152 @@
+// Dashboard Style //
+body{
+    top: 0 !important;
+    min-width: 320px;
+}
+
+.nk-body {
+    outline: none;
+    position: relative;
+    min-height: 100vh;
+    top: 0px;
+}
+
+.nk-app-root {
+    outline: none;
+}
+
+.nk-main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.dash-head {
+    width: 100%;
+    height: 67px;
+    position: absolute;
+}
+
+.dash-toggle-dard {
+    width: 48px;
+    height: 24px;
+    position: relative;
+    z-index: 1000;
+    float: right;
+    margin-right: 310px;
+    margin-top: 23px;
+}
+
+@media screen and (max-width: 1199px) {
+    .dash-toggle-dard {
+        margin-right: 138px;
+        margin-top: 28px;
+    }
+    
+}
+
+.dash-side {
+    width: 290px;
+    height: 100vh;
+    display: inline-block;
+    position: fixed;
+    z-index: 99999;
+}
+
+.dash-content {
+    width: calc(100% - 290px);
+    display: inline-block;
+    margin-top: 79px;
+    float: right;
+    
+}
+
+.content {
+    padding-left: 250px ;
+}
+
+
+// Scroll
+::-webkit-scrollbar{
+    width: 2px !important;
+    color: #854fff;
+  
+}
+
+::-webkit-scrollbar:hover{
+    width: 5px;
+    display: block;
+    background-color: rgb(214, 212, 209);
+    cursor: pointer;
+    max-height: 657px;
+}
+// End Dashboard Style //
+
+/* Switch */
+.Switch {
+    opacity: 1;
+    border-radius: 14px;
+    transition: opacity 0.25s ease 0s;
+    touch-action: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    margin-top: 12px;
+    position: fixed;
+}
+
+
+.Switch:before {
+    right: 0;
+    width: 3rem;
+    height: 1.5rem;
+    background-color: #fff;
+    border: #dbdfea solid 2px;
+}
+
+.Switch:after {
+    height: 1rem;
+    width: 1rem;
+    right: calc(2rem - 2px - 0.125rem);
+    background-color: #dbdfea;
+}
+
+.Switch:before, .Switch:after {
+    position: absolute;
+    content: "";
+    transform: translateY(-50%);
+    border-radius: 1.5rem;
+    display: block;
+}
+
+
+// Reponsive Layout // 
+@media screen and (max-width: 390px) {
+    .nk-sidebar {
+        transform: translateX(0)
+    } 
+}
+
+
+@media (max-width: 1240px){
+    .dash-content {
+        width: 100%;
+    }
+}
+
+
+// Dark Dashboard // 
+[data-theme = 'dark'] html{
+    background-color: #0c1115 !important;
+}
+
+[data-theme = 'dark'] .Switch:before{
+    background-color: rgb(255, 253, 253) !important;
+    border: #f02dd6 solid 2px;
+}
+
+[data-theme = 'dark'] .Switch::after{
+    background-color: #f02dd6 !important;
+    border: #f02dd6 solid 2px;
+    right: 4px;
+}
